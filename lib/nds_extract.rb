@@ -31,7 +31,6 @@ def list_of_directors(source)
   list_of_directors.push(source[key_index][:name])
   key_index+=1
   end
-  
   list_of_directors
   # Write this implementation
 end
