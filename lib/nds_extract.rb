@@ -38,10 +38,10 @@ def total_gross(source)
   total =0 
   hash_contains_gross = directors_totals(source)
   array = list_of_directors(source)
-  array_index=0
-  while array_index<array.length do
-  total = total+ hash_contains_gross[array[array_index]]
-  array_index+=1
+  array_index =0 
+  while array_index<array.length do 
+    total = total + hash_contains_gross[array[array_index]]
+    array_index+=1 
   end
   total
 end
